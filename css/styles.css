@@ -1,0 +1,270 @@
+/*****************************/
+/*HTML and global tags*/
+/*****************************/
+
+body {
+   font-family: "Montserrat", sans-serif;
+
+   /* Everywhere except navbar and title uses text-align: center */
+   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: 900;
+}
+
+/*****************************/
+/*Containers + Sections*/
+/*****************************/
+
+.container-fluid {
+   padding: 3% 15% 7%;
+   overflow: hidden;
+}
+
+/*Used for Title and CTA sections*/
+.primary-color-background {
+   background-color: #ff4c68;
+}
+
+/*Used for Pricing and Footer Sections*/
+.secondary-color-background {
+   background-color: white;
+}
+
+/*Used for Press and Testimonials sections*/
+.tertiary-color-background {
+   background-color: #ef8172;
+}
+
+.primary-color-background, .tertiary-color-background {
+   color: white;
+}
+
+/*****************************/
+/*Headings*/
+/*****************************/
+
+.big-heading {
+   font-size: 4.5rem;
+   line-height: 1.5;
+}
+ .section-heading {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+/*****************************/
+/*Navbar Styling*/
+/*****************************/
+
+.navbar {
+   padding: 0 0 4.5rem 0;
+   text-align: left;
+}
+
+.navbar-brand {
+   font-family: "Ubuntu", sans-serif;
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+
+.nav-item {
+   padding: 0 18px;
+}
+
+.nav-link {
+   font-size: 1.2rem;
+   font-weight: 300;
+}
+
+/*****************************/
+/*Title Section*/
+/*****************************/
+
+#title {
+   text-align: left;
+}
+
+/*Note: Usually way better to add in extra class than*/
+/*to rewrite bootstrap CSS, in case you want to use default*/
+/*Boostrap CSS later*/
+
+/*Download Button Styling*/
+.download-button {
+   margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+.title-img {
+   width: 60%;
+   transform: translate(20%) rotate(25deg);
+   position: absolute;
+}
+
+/*****************************/
+/*Features Section*/
+/*****************************/
+
+.features-col {
+   padding: 5rem;
+}
+
+.features-h3 {
+   font-size: 1.5rem;
+}
+
+.features-icon {
+   color: #ef8172;
+   margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+   color: #ff4c68;
+}
+
+.features-p {
+   color: #8f8f8f;
+}
+
+#features {
+   padding: 7rem 9rem;
+   position: relative;
+}
+
+/*****************************/
+/*Testimonials Section*/
+/*****************************/
+
+.testimonials-h2 {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+.testimonials-img {
+   border-radius: 50%;
+   margin: 1.1rem;
+   width: 10%;
+}
+
+.carousel-item {
+   padding: 7rem 9rem;
+}
+
+/*****************************/
+/*Press Section*/
+/*****************************/
+
+#press {
+   padding-bottom: 5rem;
+}
+
+.press-logo {
+   margin: 1.25rem 1.25rem 2rem;
+   width: 15%;
+}
+
+/*****************************/
+/*Pricing Section*/
+/*****************************/
+
+#pricing {
+   padding: 6.5rem;
+}
+
+.pricing-column {
+   padding: 3% 2%;
+}
+
+.pricing-h2 {
+   font-size: 2.5rem;
+   line-height: 1.5;
+}
+
+.pricing-h3 {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+/*****************************/
+/*Call to Action Section*/
+/*****************************/
+
+#cta {
+   padding: 5rem 22rem;
+}
+
+.cta-button {
+   margin: 4.5rem 1rem 3.5rem;
+}
+
+.cta-h3 {
+   font-size: 4rem;
+   line-height: 1.5;
+}
+
+/*****************************/
+/*Footer Section*/
+/*****************************/
+
+#footer {
+   padding: 8rem;
+}
+
+.footer-p {
+   margin: 1.5rem;
+}
+
+.social-icons {
+   margin: 0 10px;
+}
+
+.social-icons:hover {
+   color: #ff4c68;
+}
+
+/*****************************/
+/*Media Breakpoints*/
+/*****************************/
+
+/*Title section*/
+@media screen and (max-width:1350px) {
+   #title {
+      text-align: center;
+   }
+
+   .intro-text {
+      text-align: left;
+   }
+
+   .title-img {
+      padding: 3rem 0;
+      position: static;
+      transform: none; 
+   }
+}
+
+@media screen and (max-width:990px) {
+   .intro-text {
+      text-align: center;
+   }
+}
+
+/*CTA section*/
+@media screen and (max-width: 1380px) {
+   #cta {
+      padding: 5rem 8rem;
+   }
+}
+
+@media screen and (max-width: 930px) {
+   #cta {
+      padding: 5rem 4rem;
+   }
+}
+
+@media screen and (max-width: 530px) {
+   .cta-button {
+      margin: 3.5rem 0.5rem;
+   }
+}
