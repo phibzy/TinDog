@@ -5,6 +5,9 @@
 body {
    font-family: "Montserrat", sans-serif;
 
+   /*Change later*/
+   /*font-size: 20px;*/
+
    /* Everywhere except navbar and title uses text-align: center */
    text-align: center;
 }
@@ -46,11 +49,12 @@ h1, h2, h3, h4, h5, h6 {
 /*****************************/
 
 .big-heading {
-   font-size: 4.5rem;
+   font-size: 4.5em;
    line-height: 1.5;
 }
- .section-heading {
-   font-size: 3rem;
+
+.section-heading {
+   font-size: 3em;
    line-height: 1.5;
 }
 
@@ -59,13 +63,13 @@ h1, h2, h3, h4, h5, h6 {
 /*****************************/
 
 .navbar {
-   padding: 0 0 4.5rem 0;
+   padding: 0 0 4.5em 0;
    text-align: left;
 }
 
 .navbar-brand {
    font-family: "Ubuntu", sans-serif;
-   font-size: 2.5rem;
+   font-size: 2.5em;
    font-weight: bold;
 }
 
@@ -74,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-   font-size: 1.2rem;
+   font-size: 1.2em;
    font-weight: 300;
 }
 
@@ -107,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
 /*****************************/
 
 .features-col {
-   padding: 5rem;
+   padding: 5em;
 }
 
 .features-h3 {
-   font-size: 1.5rem;
+   font-size: 1.5em;
 }
 
 .features-icon {
@@ -128,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #features {
-   padding: 7rem 9rem;
+   padding: 7em 9em;
    position: relative;
 }
 
@@ -137,18 +141,18 @@ h1, h2, h3, h4, h5, h6 {
 /*****************************/
 
 .testimonials-h2 {
-   font-size: 3rem;
+   font-size: 3rem; /*Container font sizes should be done in rem*/
    line-height: 1.5;
 }
 
 .testimonials-img {
    border-radius: 50%;
-   margin: 1.1rem;
+   margin: 1.1em;
    width: 10%;
 }
 
 .carousel-item {
-   padding: 7rem 9rem;
+   padding: 7em 9em;
 }
 
 /*****************************/
@@ -160,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .press-logo {
-   margin: 1.25rem 1.25rem 2rem;
+   margin: 1.25em 1.25em 2em;
    width: 15%;
 }
 
@@ -177,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-h2 {
-   font-size: 2.5rem;
+   font-size: 2.5em;
    line-height: 1.5;
 }
 
@@ -195,11 +199,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-button {
-   margin: 4.5rem 1rem 3.5rem;
+   margin: 4.5em 1em 3.5em;
 }
 
 .cta-h3 {
-   font-size: 4rem;
+   font-size: 4em;
    line-height: 1.5;
 }
 
@@ -212,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-p {
-   margin: 1.5rem;
+   margin: 1.5em;
 }
 
 .social-icons {
@@ -238,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
    }
 
    .title-img {
-      padding: 3rem 0;
+      padding: 3em 0;
       position: static;
       transform: none; 
    }
@@ -265,6 +269,6 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 530px) {
    .cta-button {
-      margin: 3.5rem 0.5rem;
+      margin: 3.5em 0.5em;
    }
 }
